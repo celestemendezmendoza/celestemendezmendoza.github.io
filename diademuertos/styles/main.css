@@ -5132,6 +5132,11 @@ Created using IcoMoon - icomoon.io
   padding-top: 20vh;
 }
 
+#counter {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
 .page-header {
   height: 100vh;
   max-height: 1050px;
@@ -5173,7 +5178,8 @@ Created using IcoMoon - icomoon.io
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 0 15px;
-  color: #FFFFFF;
+  --color: #FFFFFF;
+  color: #f3efd3;
   width: 100%;
   max-width: 880px;
 }
