@@ -466,8 +466,8 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
       document.getElementById("counter").innerHTML = " " + 
-      days + " Dias  " + hours + " Hs  " +
-      minutes + " Mins  " + seconds + " Segundos";
+      days + " Dias  " + hours + " Hrs  " +
+      minutes + " Mins  " + seconds + " Segs";
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("counter").innerHTML = "";
