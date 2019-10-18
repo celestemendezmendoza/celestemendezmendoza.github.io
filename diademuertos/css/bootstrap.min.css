@@ -5280,7 +5280,8 @@ button.close {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    color: wheat;
 }
 
 .carousel-item {
@@ -8372,6 +8373,14 @@ a.bg-dark:hover {
 
 .text-golden {
     color: #ffc001!important
+}
+
+.text-darkblue {
+    color: #282C49!important
+}
+
+.text-fucsia {
+    color: #CE0058!important
 }
 
 .text-primary {
