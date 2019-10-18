@@ -5606,8 +5606,8 @@ Created using IcoMoon - icomoon.io
 
 @media screen and (max-width: 991px) {
 
-  .content-center img {
-    height: 220px;
+  .page-header .container > .content-center img {
+    height: 180px;
   }
 
   .sidebar-collapse .navbar-collapse {
